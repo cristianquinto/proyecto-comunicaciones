@@ -1,0 +1,113 @@
+  .header {
+    height: 100px;
+  } 
+
+  .footer {
+    height: 470px;
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    body {
+      font-family: sans-serif;
+      color: #333;
+      padding: 20px;
+    }
+    
+    /* todo esto son los estilos de las evidencias */
+
+    /* fondos de cada persona */
+    .YMM {
+      background-image: url('../IMG/YMMfondo.png');
+      background-repeat: repeat;
+      background-position: center;
+      background-size: 60px;
+      image-rendering: crisp-edges;
+    }
+
+    .MAA {
+      background-image: url('../IMG/MAAfondo.png');
+      background-repeat: repeat;
+      background-position: center;
+      image-rendering: crisp-edges;
+      background-size: 500px;
+    }
+
+    .JDD {
+      background-image: url('../IMG/JDDfondo.png');
+      background-repeat: repeat;
+      background-position: center;
+      background-size: 100px;
+      image-rendering: crisp-edges;
+    }
+
+    .CMQ{
+      background-image: url('../IMG/CMQfondo.png');
+      background-repeat: repeat;
+      background-position: center;
+      background-size: 200px;
+      image-rendering: pixelated;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      max-width: 800px;
+      margin: auto;
+    }
+  
+  .integrante {
+    height: 100%;
+    margin: 0;
+    border-radius: 5px;
+  }
+
+  .integrante h1 {
+      font-size: 2rem;
+      color: hsl(0, 0%, 0%);
+      background-color: rgba(255, 255, 255, 0.798);
+      width: 40%;
+    }
+
+  .integrante h2 {
+    margin-bottom: 15px;
+    color: #343638;
+  }
+  
+  .evidencia {
+    background-color: #ffffffd1;
+    padding: 25px;
+    border-left: 6px solid #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 15px rgba(0,0,0,0.05);
+    margin: 40px;
+  }
+
+  .evidencia h3 {
+    margin-bottom: 5px;
+    color: #5e595e;
+  }
+  
+  .evidencia p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  hr {
+    border: none;
+    border-top: 2px solid #090909;
+    margin: 10px 0;
+  }

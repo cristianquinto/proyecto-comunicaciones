@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 40px 20px;
+  
+  }
+ 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image:url('../IMG/evidencia.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 60px;
+  image-rendering: crisp-edges;
+  color: #222;
+  padding: 2rem;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+  background-color: #797979;
+  border-radius: 5px;
+  width: auto;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #111;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+/* Grid de tarjetas */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #000;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 470px; 
+  border: none;
+  margin-top: 20rem;
+}
+
+  
+  .card {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card-content h2 {
+    margin-top: 0;
+    color: #34495e;
+  }
+  
+  .card-content p {
+    color: #555;
+    margin: 10px 0 0;
+  }
+  
+  .card.izquierda {
+    flex-direction: row;
+  }
+  
+  .card.derecha {
+    flex-direction: row-reverse;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex-direction: column !important;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .card-content {
+      padding: 15px;
+    }
+  }
+  
